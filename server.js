@@ -44,7 +44,7 @@ app.get('/register', (req, res) => {
    
    var username=req.body.username1;
    var password=req.body.password1;
-   res.send(name+"<br>"+admno+"<br>"+username+"<br>"+password)
+   res.send(name+" "+admno+" "+username+" "+password)
    
 
 
