@@ -40,11 +40,11 @@ app.post('/login',(req,res)=>{
 });
 app.get('/register', (req, res) => {
    var name=req.body.fname;
-   var admnno=req.body.admission_no;
+   var admno=req.body.admissionno;
    
    var username=req.body.username1;
    var password=req.body.password1;
-   res.send(name+"<br>"+admno+"<br>"+username+"<br>"+pasword)
+   res.send(name+"<br>"+admno+"<br>"+username+"<br>"+password)
    
 
 
