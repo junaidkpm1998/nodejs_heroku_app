@@ -37,7 +37,7 @@ app.post('/login',(req,res)=>{
         res.send("failed")
     }
 
-})
+});
 
 app.get('/', (req, res) => {
     res.render('index',{name:'JUNAID KPM'});
