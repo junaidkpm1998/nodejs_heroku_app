@@ -38,7 +38,7 @@ app.post('/login',(req,res)=>{
     }
 
 });
-app.get('/register', (req, res) => {
+app.get('/register',(req, res)=>{
    var name=req.body.fname;
    var admno=req.body.admissionno;
    
