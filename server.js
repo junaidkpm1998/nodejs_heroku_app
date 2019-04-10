@@ -61,6 +61,6 @@ app.get('/gallery', (req, res) => {
 
 });
 
-app.listen(3002,()=>{
+app.listen(process.env.PORT || 3002,()=>{
     console.log("web application is running successfully")
 })//local host:(/)3000 chromeil adikkuka
